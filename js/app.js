@@ -60,7 +60,7 @@ function active() {
     }
     if(count < 6){alert('Sorry You Are Misstaken');
     }
-    if(count == 6){alert('Sorry You Are Misstaken The Right Aswers Are Black, Blue and Gray');
+    if(count == 6){alert('Sorry You Are Misstaken The Right Answers  Are Black, Blue and Gray');
     }
   }
 }
