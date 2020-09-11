@@ -8,7 +8,6 @@ var Q5 =0;
 var Q6 =0;
 var Q7 =0;
 
-
 function guess() {
   var lucknum = 19;
   console.log(lucknum);
@@ -33,16 +32,13 @@ function guess() {
   if (usernum !== lucknum) {
     alert('I\'m Sorry But You Had Your Chances, The Right Answer IS 19');
   }
-
 }
-
 
 function active() {
   var act = ['blue', 'black', 'gray'];
   console.log(act);
   console.log(useractinput);
   // Q7
-
 
   for (var count = 1; count <= 6; count++) {
     var useractinput = prompt('Guess One Of My Favorite Colors');
@@ -65,7 +61,6 @@ function active() {
   }
 }
 
-
 function start() {
   // Q1
   var name = prompt('My First name is Mohammad?').toLowerCase();
@@ -81,7 +76,6 @@ function start() {
     alert('it is ok if you dont want to play');
   }
 
-
   // Q2
   var ami = prompt('Am i a foreigner?').toLowerCase();
   console.log(ami);
@@ -95,7 +89,6 @@ function start() {
   } else {
     alert('Why did you press on the start game if you dont want to play?');
   }
-
 
   // Q3
   var xp = prompt('Do i look like i am have work experience?').toLowerCase();
@@ -111,7 +104,6 @@ function start() {
     alert('Really? Is it hard to spam (y) or (n) at least?');
   }
 
-
   // Q4
   var place = prompt('Do you think i was in a university?').toLowerCase();
   console.log(place);
@@ -125,7 +117,6 @@ function start() {
   } else {
     alert('I have nothing to say');
   }
-
 
   // Q5
   var enj = prompt('So ' + user + ' Did you enjoy the game?').toLowerCase();
@@ -144,8 +135,6 @@ function start() {
 
   var myElement = document.querySelector('#p');
   myElement.style.display = 'table';
-
-
 }
 
 function scoree(){
